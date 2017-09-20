@@ -12,7 +12,7 @@ This is a mule Application which exposes a rest API to perform following operati
 	 
 This is a maven based mule project so, it will manage its dependencies.
 As I have used enterprise edition to build maven repository it needs password so please use Enterprise edition password.
-If it is not available then I have developed another flow with out maven and the same is uoloade3d to git hub.
+If it is not available then I have developed another flow with out maven and the same is uploaded to git hub.
 
 Unit testing:
 
