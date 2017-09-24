@@ -30,3 +30,9 @@ All the scenarios which are require to cover the use case are covered and the sc
 in the github.
 	 
 MUnit tests are also included.
+
+NOTE: If Username and Password incorrect issue exists while running the code then kindly do the following
+
+1.Remove the username and password for the DB url in DB initialization
+2.pelase comment the tag in the configuration xml of customersserachapiimpl.xml
+
