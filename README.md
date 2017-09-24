@@ -6,9 +6,19 @@ This is a mule Application which exposes a rest API to perform following operati
 	search customers by post code
 	search customer by customer ID
 	
-	While designing RAML, I have used some best practises and used Libraries, traits and Data types. I have used H2 as in Memory Database
+	While designing RAML 1.0 in design centre , I have used some best practises and used Libraries, traits and Data types. I have used H2 as in Memory Database
 	The implementations also uses Cache scope to improve performance.
 	Caching can be disabled by passing a query parameter bypasscache=true
+
+To run this code please use the Mule server 3.8.5 EE.
+
+Configuration XMLS:
+
+1.Customersaerchapiusingresourcetypestrais.xml (API router process)
+2.Customersearchapiimpl.xml (Implementation process of API)
+3.Consumer.xml (Is for testing purpose)
+
+The code is running and I have tested all the unit test cases successfully.
 	 
 This is a maven based mule project so, it will manage its dependencies.
 As I have used enterprise edition to build maven repository it needs password so please use Enterprise edition password.
